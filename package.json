@@ -1,0 +1,33 @@
+{
+  "name": "lading-page",
+  "version": "0.1.0",
+  "private": true,
+  "author": {
+    "name": "Israel Ludolf and Jhones Laureth"
+  },
+  "scripts": {
+    "dev": "concurrently \"next dev\" \"tailwindcss --input ./styles/globals.css --output ./styles/output.css --watch\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --fix"
+  },
+  "dependencies": {
+    "@phosphor-icons/react": "^2.0.5",
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "classnames": "^2.3.2",
+    "concurrently": "^7.6.0",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7"
+  }
+}

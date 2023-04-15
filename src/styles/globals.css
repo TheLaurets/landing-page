@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@layer components {
+  .image-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .image-container .image {
+    width: 100%;
+    height: 100%;
+    position: relative !important;
+    object-fit: cover;
+  }
+
+  .thumbnail img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0 auto;
+  }
+  .thumbnail canvas {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  .thumbnail video {
+    display: none;
+  }
+
+  .html-text ul {
+    list-style: circle;
+  }
+
+  .html-text ol {
+    list-style: auto;
+  }
+
+  .html-text li {
+    margin-bottom: 20px;
+  }
+
+  .borderMatchCaseBottom {
+    border-bottom: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #35e595, #2da5df, #3b5bf6, #1c2c77)
+      1;
+  }
+  .borderMatchCaseTop {
+    border-top: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #35e595, #2da5df, #3b5bf6, #1c2c77)
+      1;
+  }
+  .borderMatchCaseStyle {
+    border-style: solid;
+    border-image: linear-gradient(to right, #35e595, #2da5df, #3b5bf6, #1c2c77)
+      1;
+  }
+}
+
+@layer base {
+  @font-face {
+    font-family: "Grold Rounded";
+    src: url("/fonts/GroldRoundedSlim-Regular.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 400;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Grold Rounded";
+    src: url("/fonts/GroldRoundedSlim-Bold.woff2") format("woff2");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Grold Rounded";
+    src: url("/fonts/GroldRoundedSlim-Light.woff2") format("woff2");
+    font-weight: 300;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Grold Rounded";
+    src: url("/fonts/GroldRoundedSlim-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Grold Rounded";
+    src: url("/fonts/GroldRoundedSlim-Thin.woff2") format("woff2");
+    font-weight: 100;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  button {
+    @apply transition-colors;
+  }
+} */
